@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>金融早报 2026-11-16｜复盘 2026-11-13</title>
+<style>
+:root{--red:#d6342c;--green:#0e9f6e;--gray:#6b7280;--bg:#f5f6f8;--card:#fff;--ink:#1f2329;--line:#e5e7eb;--accent:#b3261e}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{overflow-x:hidden}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;font-size:15px}
+.wrap{max-width:780px;margin:0 auto;padding:12px;overflow-x:hidden}
+.hero{background:linear-gradient(135deg,#7f1d1d,#b3261e 60%,#d97706);color:#fff;border-radius:14px;padding:22px 18px;margin-bottom:14px}
+.hero .kicker{font-size:12px;opacity:.85;letter-spacing:2px}
+.hero h1{font-size:21px;margin:6px 0 8px;font-weight:700;word-break:break-word}
+.hero .meta{font-size:12px;opacity:.85}
+.hero .tone{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:2px 12px;font-size:12px;margin-top:8px}
+.advice{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:14px 16px;margin-bottom:14px;word-break:break-word}
+.advice .at{font-weight:700;color:#92400e;font-size:14px;margin-bottom:4px}
+.bcard{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0;word-break:break-word}
+.bcard .bh{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.bcard .org{font-weight:700;color:var(--accent);font-size:13.5px}
+.bcard .dt{font-size:11px;color:#9ca3af;white-space:nowrap}
+.bcard .bt{margin:4px 0;font-size:13.5px}
+.bcard .bt a{color:#0e5a8a;text-decoration:none;font-weight:600}
+.bcard .bs{font-size:12px;color:#6b7280;line-height:1.6}
+.summary{background:var(--card);border-radius:12px;padding:14px 16px;margin-bottom:14px;border:1px solid var(--line)}
+section{background:var(--card);border-radius:12px;padding:16px;margin-bottom:14px;border:1px solid var(--line)}
+h2{font-size:16px;margin-bottom:10px;padding-left:10px;border-left:4px solid var(--accent)}
+h3{font-size:14.5px;margin:12px 0 6px}
+.badge{display:inline-block;border-radius:4px;padding:1px 8px;font-size:12px;font-weight:600;vertical-align:1px;margin-left:6px}
+.bull{background:#fde8e7;color:var(--red)}
+.bear{background:#def7ec;color:var(--green)}
+.neutral{background:#f3f4f6;color:var(--gray)}
+.news-item{padding:10px 0;border-bottom:1px dashed var(--line)}
+.news-item:last-child{border-bottom:none}
+.news-item .t{font-weight:700;font-size:14.5px}
+.news-item .f{font-size:13px;color:#4b5563;margin:4px 0}
+.news-item .a{font-size:13.5px;background:#faf8f2;border-radius:8px;padding:8px 10px;margin-top:6px}
+.news-item .a b{color:var(--accent)}
+.src{font-size:11px;color:#9ca3af}
+table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px;margin:8px 0}
+th,td{padding:6px 6px;text-align:right;border-bottom:1px solid var(--line);word-break:break-word;overflow-wrap:anywhere}
+td:first-child,th:first-child{text-align:left;word-break:break-word}
+th:first-child,td:first-child{text-align:left}
+th{color:var(--gray);font-weight:600;background:#fafafa}
+.up{color:var(--red)}
+.down{color:var(--green)}
+.chart{width:100%;height:300px;margin:6px 0 2px}
+.chart-sm{height:240px}
+.note{font-size:12px;color:var(--gray);background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:8px 10px;margin:8px 0}
+.pick{border:1px solid var(--line);border-radius:10px;padding:12px;margin:10px 0}
+.pick .sec-name{font-weight:700;font-size:15px;color:var(--accent)}
+.stock{background:#fafafa;border-radius:8px;padding:8px 10px;margin-top:8px;font-size:13.5px}
+.stock .n{font-weight:700}
+.stock .risk{color:#92400e;background:#fffbeb;border-radius:6px;padding:4px 8px;margin-top:4px;font-size:12.5px}
+.cal{font-size:13.5px}
+.cal td:first-child{color:var(--accent);font-weight:600;white-space:normal}
+.disclaimer{font-size:12px;color:#6b7280;background:#f3f4f6;border-radius:12px;padding:14px 16px;line-height:1.8}
+.footer{text-align:center;font-size:11px;color:#9ca3af;padding:8px 0 20px}
+@media print{body{background:#fff}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="hero">
+  <div class="kicker">个人金融早报 · AUTOMATED DAILY BRIEFING</div>
+  <h1>调整进行时：科技连续第二日百亿流出、跌停39家反超涨停，美债5.14%+美国PPI三年新高的双重利率压制；但量能已缩至1.66万亿、ETF逢低吸筹700亿、大摩看半导体调整11月中旬进尾声——半仓以下等双企稳信号（跌停收敛+缩量），短线共识收缩在影视内容与银行</h1>
+  <div class="meta">报告生成：2026-11-16 早 | 复盘交易日：2026-11-13 | 所有行情数据均为联网实时抓取并标注来源</div>
+  <div class="tone">整体基调：中性偏谨慎（调整尾声观察期：半仓以下，跌停收敛至个位数+量能继续萎缩双信号出现前不急于回场）</div>
+  
+</div>
+
+<div class="advice"><div class="at">🎯 今日策略建议（复盘 2026-11-13，详见下文解读）</div>上周五（11-13）A股调整升级：跌停39家反超涨停、科技全线百亿级流出（通信-95.5亿居首），连周四还在接棒的半导体也被兑现——导火索是美国PPI创三年新高（通胀从CPI扩散到生产端，同花顺），12月加息50bp的讨论升温，美债压在5.14%。但有三点信号说明这是调整后段而非开始：①量能从1.93万亿缩到1.66万亿，抛压在衰竭；②两融三连稳+北向千亿，杠杆和外资没跑；③ETF逆势吸筹700亿，大摩认为半导体调整11月中旬进尾声（财联社）。建议：半仓以下耐心等缩量见底信号（成交缩到地量水平+跌停收敛至个位数）再回场；短线资金共识收缩在三个免疫美元利率的方向——影视内容（儒意电影002739.SZ，AI+贺岁档逻辑，不碰9板妖股文投）、银行防御（工商银行601398）、半导体设备（大摩尾声说+唯一仍获净流入的半导体环节）。12月8-9日FOMC前的三周按防守反击打。</div>
+
+<div class="summary">上周五（11-13）A股连续第二日调整且广度恶化：上证指数收3634.35点跌0.59%、深证成指跌2.05%、创业板指跌3.32%、科创50跌2.30%（东方财富，2026-11-13收盘）；全市场仅744家上涨对4415家下跌，跌停39家反超涨停38家、活跃度14.24%（乐咕，2026-11-13收盘）。行业资金全线流出科技：通信-95.5亿、印制电路板-90.5亿、通信网络设备-83.0亿、半导体-75.3亿、机械设备-59.5亿元；净流入仅影视院线+13.9亿、银行+12.3亿、半导体设备+10.4亿（东方财富，2026-11-13收盘口径）。积极变化是量能：两市成交16557亿元环比缩量14.1%（东方财富）——从周四1.93万亿天量回落，抛压边际减弱。两融余额23029亿元基本持平（截至11-12，单日+6亿，东方财富）连续第三日未降。外围：美国10月PPI同比创近三年多新高（同花顺财经，2026-11-13），美股科技续跌（纳指-0.91%、AMD跌近9%，东方财富/同花顺2026-11-13收盘）；美10年期国债收益率5.1385%（东方财富）。</div>
+
+<section>
+<h2>一、昨日要闻与解读</h2>
+<div class="news-item"><div class="t">科技调整升级：跌停39家反超涨停，通信单日流出95.5亿<span class="badge neutral">偏空（短期）</span></div><div class="f">11-13跌停39家反超涨停38家、744家上涨对4415家下跌（乐咕，2026-11-13收盘）；行业资金流出通信-95.5亿、PCB-90.5亿、通信网络设备-83.0亿、半导体-75.3亿元（东方财富，2026-11-13收盘口径）——连周四逆势接棒的半导体（前日+23.5亿）也被兑现；隔夜美股科技续跌（纳指-0.91%、AMD跌近9%、英伟达跌2%，同花顺财经2026-11-13），美国10月PPI同比创近三年多新高（同花顺财经，2026-11-13）。</div><div class="a"><b>传导与判断：</b>调整性质从"拥挤度释放"（周四）升级为"利率压制"（周五）：CPI超预期后PPI再创新高 → 通胀从消费端扩散到生产端 → 12月加息50bp的概率上升 → 美债5.14%持续 → 全球成长股（尤其半导体链）估值承压 → A股科技全线流出。我们周四预设的分水岭验证结果：量能缩了（好的一半）但跌停扩散了（坏的一半）——调整未完成，抛压在减弱但承接未出现。<br><b>尚未充分定价：</b>跌停39家的广度惨烈，但对比10-27那轮调整（两融连续大降、北向萎缩），本次两融三连稳（+6亿，东方财富）+北向1117亿维持活跃——杠杆与外资没有撤退，是存量资金的高位换防。"跌停反超涨停"在历史上往往出现在调整的后段而非初段，配合大摩"11月中旬进尾声"的判断（财联社，2026-11），当前位置正在构筑底部区域。</div></div><div class="news-item"><div class="t">大摩看半导体调整近尾声：再跌10-15%后见底，ETF逢低吸筹700亿<span class="badge neutral">中性（底部区域特征）</span></div><div class="f">摩根士丹利技术分析认为，半导体板块这轮调整可能较当前水平再跌10%至15%，费城半导体指数可能下探至9500点，但调整预计于11月中旬进入尾声（财联社，2026-11）；股票型ETF近期净流入近700亿元，有资金逢低布局（同花顺财经，2026-11-13）；AI股连跌四周但业绩集体爆表，本轮调整"杀的是估值不是业绩"（市场分析，同花顺财经2026-11-13）。</div><div class="a"><b>传导与判断：</b>底部区域的三个特征在同时出现：①卖方外资给出量化的调整终点（SOX 9500）与时间窗口（11月中旬）——当前正在窗口内；②ETF逆势净流入700亿=机构资金在用指数通道承接个股抛压；③业绩与股价背离（业绩爆表+估值下杀）=当利率压力缓解时，估值修复的弹性被储备。传导：11月下旬若跌停收敛+缩量企稳，"业绩牛"的重新定价会在12月FOMC落地后启动。<br><b>尚未充分定价：</b>市场情绪按"调整延续"定价，但ETF的700亿承接与两融三连稳构成"隐性买盘"——一旦美债收益率从5.14%回落（加息充分定价后），这些潜伏买盘的集中入场会快于情绪修复的速度；"杀估值不杀业绩"的板块在利率拐点处的反弹斜率 historically 最陡。</div></div><div class="news-item"><div class="t">幸存者结构：影视内容+银行+半导体设备——资金共识收缩到三个方向<span class="badge neutral">中性偏多（结构）</span></div><div class="f">11-13行业净流入仅三个方向显著：影视院线+13.9亿、银行+12.3亿、半导体设备+10.4亿（东方财富，2026-11-13收盘口径）；龙虎榜文投控股涨停（+10.03%）获净买4.68亿元（15天9板级别妖股）、儒意电影涨停（+9.96%）1.36亿、日发精机涨停（+10.00%）1.27亿、旋极信息+17.58%获2.40亿（东方财富数据中心，2026-11-13）。</div><div class="a"><b>传导与判断：</b>普跌日的幸存方向是下一阶段的候选主线：①影视内容（文投/儒意涨停+行业净流入第一）——AI应用落地+贺岁档预期的双重逻辑，且完全免疫美元利率；②银行——利率上行期净息差受益+防御属性；③半导体设备——大摩看调整尾声的方向里，设备是唯一周五仍获净流入的环节（国产替代订单刚性）。三个方向的共同点：定价锚都不在美元利率。<br><b>尚未充分定价：</b>影视内容是本周资金共识收缩后的"新共识"——但文投控股已9板级别，妖股后期的参与价值低；真正值得关注的是行业逻辑（AI+内容、贺岁档）下的非妖股标的（儒意电影等），资金从妖股向行业股的扩散尚未发生，这是介入窗口。</div></div><div class="news-item"><div class="t">美国PPI创三年新高：通胀从CPI扩散到生产端，12月加息50bp概率上升<span class="badge neutral">中性偏谨慎（外部）</span></div><div class="f">美国10月PPI同比创近三年多新高（同花顺财经，2026-11-13）；叠加此前10月CPI环比0.4%超预期（新浪财经2026-11-10），12月8-9日FOMC会议加息50bp的讨论升温（此前基准预期为25bp，凤凰财经2026-11-10）；美10年期国债收益率维持5.1385%高位（东方财富，2026-11-13）。</div><div class="a"><b>传导与判断：</b>通胀数据的接力（CPI→PPI）改变了12月FOMC的性质：从"加多少"的幅度问题变成"通胀是否失控"的方向问题 → 若50bp落地，全球风险资产还有一轮估值下杀；若25bp（通胀被判定为供应链噪音），则利空出尽。12月8-9日前的三周是"数据真空+预期摇摆"期，波动率难降。<br><b>尚未充分定价：</b>美债5.14%+PPI新高的组合下，黄金企稳（3887.6美元，+0.15%，东方财富2026-11-13）是个反常信号——通胀顽固本身支撑黄金的抗通胀需求，加息与通胀的对冲让金价跌不动；若12月真加50bp同时通胀不回落，"滞胀交易"会回归，黄金与银行股是那个场景的对冲。</div></div><div class="news-item"><div class="t">杠杆与外资的韧性：两融三连稳、北向1117亿，存量博弈而非资金离场<span class="badge neutral">中性</span></div><div class="f">两融余额23029亿元（截至11-12，单日+6亿元，东方财富）——连续第三个交易日未下降（11-10 +124亿、11-11 +77亿、11-12 +6亿）；北向上周五成交1117亿元维持千亿级（东方财富，2026-11-13）；两市量能从1.93万亿缩至1.66万亿（东方财富，2026-11-12/13对比）。</div><div class="a"><b>传导与判断：</b>资金结构解读：杠杆资金在两日调整中稳住不撤（两融三连稳）、外资维持千亿活跃（北向1117亿）、量能萎缩主要来自获利盘衰竭而非恐慌抛售——这是"存量换防"的资金特征。对比10月下旬那轮调整（两融连续大降、北向萎缩），本次调整的资金面健康度明显更好，深度调整的概率相应更低。<br><b>尚未充分定价：</b>"量能萎缩"通常被读作利空，但缩量发生在放量下跌次日、且跌停家数虽多却无两融爆仓迹象——这更像抛压的自然衰竭；若本周初出现"地量（成交较当前明显再缩）+跌停个位数"的组合，就是教科书式的缩量见底信号，届时潜伏的ETF买盘（700亿）与杠杆资金会形成共振。</div></div>
+<h3>头部券商观点速览（2026-11-13 前后发布）</h3>
+<div class="bcard"><div class="bh"><span class="org">★ 开源证券</span><span class="dt">11-16 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611161831738061.html" style="color:#0e5a8a;text-decoration:none">北交所行业主题报告：环境健康电器由“除菌抑菌”向“智能+场景化”升级，北交所标的覆盖空气+水净化</a></div><div class="bs">摘要：环境健康电器：需求端由“除菌抑菌”向“智能+场景化”升级环境健康电器是覆盖家用、商用、医用、工业四大场景的新兴品类，通过调节环境参数、消杀微生物、改善洁净度保障人与生产空间健康安全。根据中商产业研究院数据，2025年中国清洁电器零售量3550万台，同比增长17…</div></div><div class="bcard"><div class="bh"><span class="org">★ 开源证券</span><span class="dt">11-16 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611161831738058.html" style="color:#0e5a8a;text-decoration:none">事件点评：DR001中枢，不一定是1.25%</a></div><div class="bs">摘要：10月30日，央行宣布主要操作品种的期限切换为隔夜，利率为1.25%，市场称之为“换锚”。资金利率水平直接取决于央行央行换锚，市场解读为“隐性降息”。10月潘功胜行长：“我们将研究择机把央行公开市场主要操作品种的期限切换为隔夜，公开市场隔夜回购利率将相应成为主…</div></div><div class="bcard"><div class="bh"><span class="org">★ 开源证券</span><span class="dt">11-16 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611161831737746.html" style="color:#0e5a8a;text-decoration:none">开源晨会</a></div><div class="bs">摘要：观点精粹总量视角【策略】配置再平衡，应对外部输入性风险——投资策略周报-20261115【宏观经济】AI浪潮下中美经济的增长路径——宏观经济2027年度投资策略-20261115【固定收益】进出口同比延续高位增长，贸易顺差有所回落——2026年10月进出口数据…</div></div><div class="bcard"><div class="bh"><span class="org">★ 东吴证券</span><span class="dt">11-16 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611161831734647.html" style="color:#0e5a8a;text-decoration:none">晨会纪要</a></div><div class="bs">摘要：宏观策略宏观深度报告20261112：接力与转折：居民部门需求的回归——2027年展望之中国经济核心观点：2027年中国经济运行的主线，由前期的外部需求驱动，切换至居民部门需求的回归与经济微观结构的健康再平衡。过去一年，虽然宏观总量在AI驱动的外需支撑下保持韧…</div></div><div class="bcard"><div class="bh"><span class="org">★ 开源证券</span><span class="dt">11-15 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611151831733187.html" style="color:#0e5a8a;text-decoration:none">北交所策略专题报告：关注电子布小巨人盛祥电子，时隔4年新三板定增募资额重回增长</a></div></div><div class="bcard"><div class="bh"><span class="org">★ 国泰君安期货</span><span class="dt">11-15 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611151831732915.html" style="color:#0e5a8a;text-decoration:none">海外宏观及大类资产周度报告</a></div></div><div class="bcard"><div class="bh"><span class="org">★ 开源证券</span><span class="dt">11-15 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611151831732798.html" style="color:#0e5a8a;text-decoration:none">投资策略周报：配置再平衡，应对外部输入性风险</a></div></div><div class="bcard"><div class="bh"><span class="org">★ 开源证券</span><span class="dt">11-15 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611151831732794.html" style="color:#0e5a8a;text-decoration:none">北交所策略专题报告：北交所开市五周年：市值配售与北证50ETF落地在即，生态成熟开启新周期</a></div></div><div class="src">★为头部券商，点标题可看原文。来源：东方财富研报中心(reportapi, 免费接口)，窗口 2026-11-14~2026-11-16</div>
+<div class="news-item"><div class="a">卖方最新（东财研报中心，2026-11-13/16）：<br><br>【开源证券·利率机制点评】《DR001中枢，不一定是1.25%》（2026-11-16）——对国内资金利率中枢的讨论，货币政策的宽松取向没有变化，国内流动性环境与美联储的方向相反，这是A股独立性的利率基础。<br><br>【开源·北交所双专题】环境健康电器"智能+场景化"升级（2026-11-16）、电子布小巨人盛祥电子（2026-11-15）——卖方在调整期继续下沉挖中小盘细分冠军，AI硬件的材料端（电子布=CCL上游）覆盖在延续。<br><br>【国泰君安期货·海外大类资产周报】（2026-11-15）——利率峰值期的资产配置框架，与我们的"防御+对冲"结构一致。<br><br>【综合判断】卖方没有恐慌：国内流动性宽松（开源DR001点评）与外部利率峰值（国君期货周报）的组合，指向"内需定价资产占优+科技调整尾声布局"的双轨策略；影视内容的行业逻辑（AI+贺岁档）与半导体设备的尾声说，是下周企稳后的两个候选进攻方向。</div></div>
+</section>
+
+<section>
+<h2>二、市场行情（2026-11-13）</h2>
+<h3>A股主要指数</h3>
+<table><tr><th>指数</th><th>收盘</th><th>涨跌幅</th><th>成交额(亿)</th><th>量能环比</th><th>近5日</th></tr><tr><td>上证指数</td><td>3634.35</td><td><span class="down">-0.59%</span></td><td>7,706</td><td><span class="down">-12.4%</span></td><td><span class="down">-0.41%</span></td></tr><tr><td>深证成指</td><td>10968.79</td><td><span class="down">-2.05%</span></td><td>8,850</td><td><span class="down">-15.9%</span></td><td><span class="down">-1.85%</span></td></tr><tr><td>创业板指</td><td>2426.08</td><td><span class="down">-3.32%</span></td><td>4,377</td><td><span class="down">-17.0%</span></td><td><span class="down">-1.59%</span></td></tr><tr><td>科创50</td><td>1279.66</td><td><span class="down">-2.30%</span></td><td>1,000</td><td><span class="down">-14.7%</span></td><td><span class="up">+2.11%</span></td></tr></table><div class="src">两市成交额合计约 <b>16,557 亿元</b>（口径: 上证指数+深证综指成交额之和），环比 <span class="down">-14.1%</span>。（来源：东方财富-指数日线，2026-11-13）</div>
+<h3>港股 / 隔夜美股（10-21 美股收盘）</h3>
+<table><tr><th>指数</th><th>收盘</th><th>涨跌幅</th></tr><tr><td>恒生指数</td><td>23637.60</td><td><span class="down">-1.55%</span></td></tr><tr><td>恒生科技指数</td><td>3813.19</td><td><span class="down">-3.02%</span></td></tr><tr><td>道琼斯 *</td><td>52347.55</td><td><span class="up">+0.10%</span></td></tr><tr><td>标普500 *</td><td>7561.67</td><td><span class="down">-0.40%</span></td></tr><tr><td>纳斯达克 *</td><td>25136.27</td><td><span class="down">-0.91%</span></td></tr></table><div class="src">* 美股为隔夜(北京时间今晨收盘)行情。来源：东方财富指数日线，数据日期见各行情注。</div>
+<h3>全球市场（2026-11-13 收盘）</h3>
+<table><tr><th>品种</th><th>收盘</th><th>涨跌</th></tr><tr><td>沪深300</td><td>4,016.29</td><td><span class="down">-0.68%</span></td></tr><tr><td>上证50</td><td>2,775.02</td><td><span class="up">+0.11%</span></td></tr><tr><td>中证500</td><td>6,465.49</td><td><span class="down">-2.10%</span></td></tr><tr><td>美元指数</td><td>103.42</td><td><span class="up">+0.24%</span></td></tr><tr><td>美元兑离岸人民币</td><td>6.67</td><td><span class="up">+0.02%</span></td></tr><tr><td>美10年期国债收益率</td><td>5.14%</td><td><span class="up">+0.17%</span></td></tr><tr><td>NYMEX原油</td><td>88.92 美元</td><td><span class="up">+0.25%</span></td></tr><tr><td>COMEX黄金</td><td>3,887.60 美元</td><td><span class="up">+0.15%</span></td></tr><tr><td>沪金主连</td><td>839.00 元/克</td><td><span class="down">-1.58%</span></td></tr><tr><td>螺纹钢主连</td><td>3,035.00 元/吨</td><td><span class="up">+0.36%</span></td></tr></table><div class="src">沪深300/上证50/中证500为股指期货标的现货口径；美债为10年期收益率。来源：东方财富，数据日期 2026-11-13</div>
+<div class="news-item"><div class="a">外围一句话：通胀接力（CPI→PPI）让12月FOMC的悬念从幅度变成方向。美国10月PPI创近三年新高（同花顺2026-11-13）+美债5.1385%（东方财富）——利率压制仍在峰值区；但美股周五大体平稳（道指+0.10%、纳指-0.91%，东方财富2026-11-13收盘）未再崩塌，黄金企稳3887.6美元（+0.15%，东方财富）暗示"滞胀对冲"需求在萌芽。港股恒指-1.55%、恒生科技-3.02%（东方财富）——对美元利率最敏感的市场跌幅最深，印证本轮调整的利率属性。未来三周（至12月8-9日FOMC）是数据真空+预期摇摆期：任何美联储官员的鹰鸽表态都会放大波动，A股权重端（银行）与内需定价资产的相对优势延续。</div></div>
+<div class="news-item"><div class="a">衍生品信号：防御深化但无恐慌。上证50上周五+0.11%逆势收涨对中证500的-2.10%（东方财富，2026-11-13收盘）——大盘价值连续第二日扛跌，风格防御到极致；沪深300-0.68%居中。沪金主连-1.58%至839元（东方财富）——内盘黄金跟随外盘企稳过程中的最后挣扎，金价的抗跌（外盘+0.15%）与黄金股的补跌形成反差，配置价值在浮现。螺纹钢+0.36%（东方财富）——内需定价完全无恐慌。组合解读："50涨+IC跌+商品稳"是标准的防御分化形态，与9-10月的"普跌"不同——系统性风险有限，是风格层面的利率避险；当IC的抛压衰竭（连续缩量）而50还在涨时，通常距离风格再平衡（成长回归）不远。</div></div>
+<div id="chartPct" class="chart chart-sm"></div>
+<h3>上证指数走势与量能（近40交易日）</h3>
+<div id="chartSH" class="chart"></div>
+
+</section>
+
+<section>
+<h2>三、资金与情绪</h2>
+<div class="news-item"><div class="a">资金面呈"存量换防"特征，非离场。证据链：①两融余额23029亿元连续第三日未降（11-10起+124/+77/+6亿，东方财富）——杠杆资金扛住了两日调整；②北向上周五成交1117亿元维持千亿级（东方财富，2026-11-13）；③量能16557亿环比缩14.1%（东方财富）——缩量来自获利盘衰竭；④ETF净流入700亿的机构承接（同花顺财经2026-11-13）与个股层面的百亿流出形成对冲。结构上流出集中旧主线（通信-95.5/PCB-90.5亿），流入收缩到影视+13.9/银行+12.3/半导体设备+10.4亿三个方向（东方财富2026-11-13收盘口径）。见底监测双信号：成交缩至地量水平（较当前1.66万亿再明显萎缩）+跌停收敛至个位数——出现前保持半仓以下，出现后ETF买盘与杠杆回流的共振值得期待。</div></div>
+<table><tr><td>两融余额（2026-11-12）</td><td><b>23,029</b> 亿元</td><td>日变化 +6 亿元</td></tr><tr><td colspan="3" class="src">融资余额 22,738 亿元，日变化 7.0 亿元。来源：东方财富数据中心-两融市场汇总(RPTA_RZRQ_LSHJ)</td></tr><tr><td>北向成交额（2026-11-13）</td><td><b>1,117</b> 亿元</td><td class="src">净买入已停止披露</td></tr><tr><td colspan="3" class="src">北向净买入额自2024-08-19起停止披露, 以下为盘后成交总额口径。来源：东方财富数据中心-沪深港通成交历史(RPT_MUTUAL_DEAL_HISTORY)</td></tr><tr><td>涨跌家数</td><td><span class="up">涨 744</span> / <span class="down">跌 4415</span></td><td>涨停 38 · 跌停 39</td></tr><tr><td colspan="3" class="src">统计口径时间：2026-11-13 15:00:00（活跃度 14.24%）。来源：乐咕乐股-市场涨跌家数(akshare stock_market_activity_legu)</td></tr></table><h3>行业主力资金流向（亿元）</h3><table><tr><th>净流入前列</th><th>涨跌</th><th>主力净额</th></tr><tr><td>影视院线</td><td><span class="up">+4.39%</span></td><td class="up">+13.9</td></tr><tr><td>银行</td><td><span class="up">+1.43%</span></td><td class="up">+12.3</td></tr><tr><td>银行Ⅱ</td><td><span class="up">+1.43%</span></td><td class="up">+12.3</td></tr><tr><td>半导体设备</td><td><span class="down">-3.11%</span></td><td class="up">+10.4</td></tr><tr><td>IT服务Ⅲ</td><td><span class="down">-1.04%</span></td><td class="up">+9.8</td></tr></table><table><tr><th>净流出前列</th><th>涨跌</th><th>主力净额</th></tr><tr><td>机械设备</td><td><span class="down">-2.56%</span></td><td class="down">-59.5</td></tr><tr><td>半导体</td><td><span class="down">-3.33%</span></td><td class="down">-75.3</td></tr><tr><td>通信网络设备及器件</td><td><span class="down">-4.15%</span></td><td class="down">-83.0</td></tr><tr><td>印制电路板</td><td><span class="down">-6.83%</span></td><td class="down">-90.5</td></tr><tr><td>通信</td><td><span class="down">-2.44%</span></td><td class="down">-95.5</td></tr></table><div class="src">口径：当日口径; 早报于次日盘前生成时反映的是报告交易日全天；生成时刻 2026-11-16 08:31。来源：东方财富-行业板块主力资金流(push2 clist)</div>
+<h3>两融余额（近8个披露日）</h3>
+<div id="chartMargin" class="chart chart-sm"></div>
+<h3>龙虎榜净买入TOP5（2026-11-13）</h3>
+<table><tr><th>股票</th><th>涨跌幅</th><th>净买入(亿)</th><th>上榜原因</th></tr><tr><td>文投控股</td><td><span class="up">+10.03%</span></td><td class="up">+4.68</td><td style="white-space:normal;text-align:left">有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券；非S证券连续三个</td></tr><tr><td>旋极信息</td><td><span class="up">+17.58%</span></td><td class="up">+2.40</td><td style="white-space:normal;text-align:left">日涨幅达到15%的前5只证券</td></tr><tr><td>儒意电影</td><td><span class="up">+9.96%</span></td><td class="up">+1.36</td><td style="white-space:normal;text-align:left">日涨幅偏离值达到7%的前5只证券</td></tr><tr><td>日发精机</td><td><span class="up">+10.00%</span></td><td class="up">+1.27</td><td style="white-space:normal;text-align:left">日涨幅偏离值达到7%的前5只证券</td></tr><tr><td>美晨科技</td><td><span class="up">+19.85%</span></td><td class="up">+1.05</td><td style="white-space:normal;text-align:left">日涨幅达到15%的前5只证券</td></tr></table><div class="src">全市场共 56 股上榜。来源：东方财富数据中心-龙虎榜(RPT_DAILYBILLBOARD_DETAILS)，2026-11-13</div>
+<div class="news-item"><div class="a">龙虎榜（东方财富数据中心，2026-11-13）：56股上榜。净买前列：文投控股（+10.03%，4.68亿）、旋极信息（+17.58%，2.40亿）、儒意电影（+9.96%，1.36亿）、日发精机（+10.00%，1.27亿）、美晨科技（+19.85%，1.05亿）。解读：①文投控股已是15天9板级别的超级妖股（东方财富2026-11-10/13连续登榜）——传媒内容方向的资金总龙头，但妖股后期只可远观，它的存在意义是确认板块的资金容量；②儒意电影（影视内容+爆款出品方）涨停属于行业逻辑的正宗载体，若资金从妖股向行业股扩散，弹性标的是这类而非文投；③日发精机（机床/机器人设备）涨停+旋极信息（军工IT+AI）大涨——"AI+制造"链在普跌日仍有进攻样本，与机器人链的利率免疫判断一致。</div></div>
+<h3>行业主力资金流向（亿元）</h3>
+<div id="chartFlow" class="chart"></div>
+</section>
+
+<section>
+<h2>四、板块与个股关注</h2>
+<div class="pick"><div class="sec-name">▍影视内容（调整期的资金新共识，免疫美元利率）</div><div class="f">上周五行业净流入第一影视院线+13.9亿元（东方财富，2026-11-13收盘口径），普跌日仅有的三个流入方向之一；龙虎榜文投控股9板级别妖股+儒意电影涨停（东方财富数据中心）确认资金容量；行业逻辑双轮：AI应用落地（内容生产降本）+贺岁档临近（票房催化），且定价锚完全在国内。</div><div class="a"><b>催化：</b>贺岁档影片定档与票房预售；AI内容应用的产品化进展；资金从妖股向行业正宗标的扩散。</div><div class="stock"><span class="n">儒意电影（002739.SZ）</span> — 影视内容+爆款出品平台，11-13涨停获净买1.36亿元（东方财富数据中心，2026-11-13）——是影视方向里行业逻辑最正宗的载体（区别于9板妖股文投控股），若资金向行业股扩散，弹性标的是这类；贺岁档是其传统强档期。<div class="risk">⚠ 主要风险：票房表现有项目制的不确定性；影视板块波动大且受监管情绪影响；若大盘继续调整，高位涨停股的补跌风险真实。</div></div></div><div class="pick"><div class="sec-name">▍银行防御（利率上行期的净息差受益+政策托底权重）</div><div class="f">银行+12.3亿元净流入为上周五仅有的流入方向之一（东方财富，2026-11-13收盘口径），上证50逆势+0.11%靠权重银行扛跌（东方财富）；外部利率峰值期（美债5.14%）+国内流动性宽松的组合下，银行的净息差预期与防御属性双占优；证监会"拓宽中长期资金入市"（东吴证券2026-11-13）的承接工具也以权重蓝筹为载体。</div><div class="a"><b>催化：</b>12月FOMC前的避险配置需求；中长期资金入市的实质工具落地；年末估值切换。</div><div class="stock"><span class="n">工商银行（601398.SH）</span> — 宇宙行+高股息标杆，此前10月底恐慌期创历史新高的资金记忆（华尔街见闻2026-10-22）证明其在每轮调整中都是避风港；当前利率环境复制了那次的配置逻辑。<div class="risk">⚠ 主要风险：市场反弹时显著跑输题材股（机会成本）；若12月FOMC温和落地，防御资金撤离带来回撤。</div></div></div><div class="pick"><div class="sec-name">▍观察仓：半导体设备（大摩尾声说+唯一仍获净流入的半导体环节）</div><div class="f">大摩判断半导体调整11月中旬进尾声、SOX再跌10-15%后见底（财联社，2026-11）；半导体设备是上周五金方位净流入的半导体细分（+10.4亿，东方财富2026-11-13收盘口径）——国产替代订单的刚性使其在板块调整中最后被卖、最先被买；北方华创等龙头回踩后是尾声布局的候选。</div><div class="a"><b>催化：</b>观察信号：跌停收敛+缩量见底双信号出现；SOX指数止跌；电子行业资金流由负转正。</div></div><div class="src">以上为研究性关注而非买入建议，须结合自身仓位与风险承受能力；弱势缩量市场中题材轮动快，建议右侧确认后再介入。</div>
+</section>
+
+<section>
+<h2>五、今日与本周关注</h2>
+<table class="cal"><tr><td>今日/本周初</td><td class="cal">缩量见底双信号监测：成交能否缩至地量水平+跌停收敛至个位数——出现即是ETF买盘与杠杆回流共振的回场窗口</td></tr><tr><td>12-08/09</td><td class="cal">美联储12月FOMC：25bp=利空出尽（成长修复），50bp=最后一跌（滞胀交易回归）——决议前三周按防守反击打</td></tr><tr><td>持续</td><td class="cal">影视内容方向资金扩散跟踪（妖股文投向行业股儒意等扩散=主线确认）；电子布等AI材料端卖方覆盖的映射（开源盛祥电子专题2026-11-15）</td></tr><tr><td>年底前</td><td class="cal">限售解禁高峰+2027年度策略密集发布期：宏观分歧（居民需求vs去库存）的验证数据将陆续出炉</td></tr></table>
+</section>
+
+<div class="disclaimer">
+<b>免责声明：</b>本报告由个人自动化系统基于公开信息生成，仅供参考，不构成任何投资建议或买卖要约。所涉个股仅为研究示例，不代表推荐买入。股市有风险，投资需谨慎，据此操作风险自负。行情与资金数据均来自文中标注的公开来源（东方财富、新浪财经、乐咕乐股及公开新闻报道），以官方披露为准；北向资金净买入额自2024-08-19起交易所已停止逐日披露，本报告仅使用盘后成交总额口径。
+</div>
+<div class="footer">由 ZCode 金融早报自动化服务生成 · 数据抓取时间 2026-11-16 08:31:28 · 全链路 0 元/月</div>
+
+</div>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.5.1/echarts.min.js"></script>
+<script>
+function loadEchartsFallback(){
+  var s=document.createElement('script');
+  s.src='https://registry.npmmirror.com/echarts/5.5.1/files/dist/echarts.min.js';
+  s.onload=renderCharts;document.head.appendChild(s);
+}
+function initCharts(){ if(window.echarts){renderCharts();} else {loadEchartsFallback();} }
+function renderCharts(){
+  var D={"sh":{"dates":["2026-09-11","2026-09-14","2026-09-15","2026-09-16","2026-09-17","2026-09-18","2026-09-21","2026-09-22","2026-09-23","2026-09-24","2026-09-28","2026-09-29","2026-09-30","2026-10-08","2026-10-09","2026-10-12","2026-10-13","2026-10-14","2026-10-15","2026-10-16","2026-10-19","2026-10-20","2026-10-21","2026-10-22","2026-10-23","2026-10-26","2026-10-27","2026-10-28","2026-10-29","2026-10-30","2026-11-02","2026-11-03","2026-11-04","2026-11-05","2026-11-06","2026-11-09","2026-11-10","2026-11-11","2026-11-12","2026-11-13"],"closes":[3888.11,3885.33,3864.28,3891.6,3875.6,3911.87,3949.91,3952.13,3936.52,3888.37,3823.62,3830.45,3842.19,3811.9,3813.79,3797.24,3800.86,3767.23,3707.48,3716.28,3730.92,3735.37,3713.03,3658.03,3690.48,3697.52,3648.3,3681.47,3651.43,3599.02,3638.03,3608.1,3686.17,3689.91,3649.18,3660.79,3663.72,3680.64,3655.83,3634.35],"amounts":[9582.0,7793.0,7640.0,8711.0,8688.0,9942.0,9468.0,10080.0,8341.0,7836.0,8045.0,6617.0,6794.0,8112.0,8886.0,7149.0,7793.0,6625.0,7744.0,7325.0,6870.0,7000.0,6428.0,7061.0,8987.0,7465.0,6724.0,7510.0,7156.0,7642.0,8475.0,8108.0,9533.0,9797.0,7726.0,6825.0,6740.0,7362.0,8795.0,7706.0]},"pct":{"names":["科创50","上证指数","深证成指","创业板指","恒生指数","恒生科技指数","道琼斯","标普500","纳斯达克"],"vals":[-2.3,-0.59,-2.05,-3.32,-1.55,-3.02,0.1,-0.4,-0.91]},"margin":{"dates":["2026-11-03","2026-11-04","2026-11-05","2026-11-06","2026-11-09","2026-11-10","2026-11-11","2026-11-12"],"vals":[22705.0,22718.0,22785.0,22549.0,22670.0,22657.0,22731.0,22738.0]},"flow":{"names":["影视院线","银行","银行Ⅱ","半导体设备","IT服务Ⅲ","通信","印制电路板","通信网络设备及器件","半导体","机械设备"],"vals":[13.9,12.3,12.3,10.4,9.8,-95.5,-90.5,-83.0,-75.3,-59.5]}};
+  var base={tooltip:{trigger:'axis'},grid:{left:56,right:56,top:30,bottom:44}};
+  // 1. 各指数单日涨跌幅
+  var c1=echarts.init(document.getElementById('chartPct'));
+  c1.setOption(Object.assign({},base,{
+    grid:{left:96,right:40,top:16,bottom:30},
+    tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+    xAxis:{type:'value',axisLabel:{formatter:'{value}%'}},
+    yAxis:{type:'category',data:D.pct.names,axisLabel:{fontSize:11}},
+    series:[{type:'bar',data:D.pct.vals.map(function(v){return {value:v,itemStyle:{color:v>=0?'#d6342c':'#0e9f6e'}};}),
+      label:{show:true,position:'right',formatter:'{c}%'}}]
+  }));
+  // 2. 上证收盘价 + 成交额
+  var c2=echarts.init(document.getElementById('chartSH'));
+  var shStep=Math.max(1,Math.ceil(D.sh.dates.length/6));
+  c2.setOption(Object.assign({},base,{
+    legend:{data:['收盘价','成交额(亿元)'],top:0,itemWidth:14,textStyle:{fontSize:10}},
+    tooltip:{trigger:'axis'},
+    grid:{left:50,right:52,top:28,bottom:26},
+    xAxis:{type:'category',data:D.sh.dates,axisLabel:{rotate:40,fontSize:9,interval:shStep-1}},
+    yAxis:[{type:'value',scale:true,name:'点',nameTextStyle:{fontSize:9}},{type:'value',name:'亿元',splitLine:{show:false},nameTextStyle:{fontSize:9}}],
+    dataZoom:[{type:'inside'}],
+    series:[{name:'收盘价',type:'line',data:D.sh.closes,smooth:true,showSymbol:false,lineStyle:{width:2},itemStyle:{color:'#b3261e'}},
+            {name:'成交额(亿元)',type:'bar',yAxisIndex:1,data:D.sh.amounts,itemStyle:{color:'#f3c88b',opacity:.8}}]
+  }));
+  // 3. 两融余额
+  var c3=echarts.init(document.getElementById('chartMargin'));
+  var mgStep=Math.max(1,Math.ceil(D.margin.dates.length/5));
+  c3.setOption(Object.assign({},base,{
+    grid:{left:56,right:20,top:20,bottom:44},
+    xAxis:{type:'category',data:D.margin.dates,axisLabel:{rotate:40,fontSize:9,interval:mgStep-1}},
+    yAxis:{type:'value',scale:true,name:'亿元',nameTextStyle:{fontSize:9}},
+    series:[{type:'line',data:D.margin.vals,smooth:true,showSymbol:false,areaStyle:{opacity:.15},itemStyle:{color:'#7c3aed'}}]
+  }));
+  // 4. 行业主力资金流(净流入/净流出)
+  var c4=echarts.init(document.getElementById('chartFlow'));
+  c4.setOption(Object.assign({},base,{
+    grid:{left:110,right:56,top:16,bottom:30},
+    tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+    xAxis:{type:'value',axisLabel:{formatter:'{value}亿'}},
+    yAxis:{type:'category',data:D.flow.names,axisLabel:{fontSize:11}},
+    series:[{type:'bar',data:D.flow.vals.map(function(v){return {value:v,itemStyle:{color:v>=0?'#d6342c':'#0e9f6e'}};}),
+      label:{show:true,position:'insideRight',formatter:'{c}亿'}}]
+  }));
+  window.addEventListener('resize',function(){c1.resize();c2.resize();c3.resize();c4.resize();});
+}
+if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',initCharts);}else{initCharts();}
+</script>
+</body>
+</html>
