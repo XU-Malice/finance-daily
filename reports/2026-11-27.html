@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>金融早报 2026-11-27｜复盘 2026-11-26</title>
+<style>
+:root{--red:#d6342c;--green:#0e9f6e;--gray:#6b7280;--bg:#f5f6f8;--card:#fff;--ink:#1f2329;--line:#e5e7eb;--accent:#b3261e}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{overflow-x:hidden}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;font-size:15px}
+.wrap{max-width:780px;margin:0 auto;padding:12px;overflow-x:hidden}
+.hero{background:linear-gradient(135deg,#7f1d1d,#b3261e 60%,#d97706);color:#fff;border-radius:14px;padding:22px 18px;margin-bottom:14px}
+.hero .kicker{font-size:12px;opacity:.85;letter-spacing:2px}
+.hero h1{font-size:21px;margin:6px 0 8px;font-weight:700;word-break:break-word}
+.hero .meta{font-size:12px;opacity:.85}
+.hero .tone{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:2px 12px;font-size:12px;margin-top:8px}
+.advice{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:14px 16px;margin-bottom:14px;word-break:break-word}
+.advice .at{font-weight:700;color:#92400e;font-size:14px;margin-bottom:4px}
+.bcard{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0;word-break:break-word}
+.bcard .bh{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.bcard .org{font-weight:700;color:var(--accent);font-size:13.5px}
+.bcard .dt{font-size:11px;color:#9ca3af;white-space:nowrap}
+.bcard .bt{margin:4px 0;font-size:13.5px}
+.bcard .bt a{color:#0e5a8a;text-decoration:none;font-weight:600}
+.bcard .bs{font-size:12px;color:#6b7280;line-height:1.6}
+.summary{background:var(--card);border-radius:12px;padding:14px 16px;margin-bottom:14px;border:1px solid var(--line)}
+section{background:var(--card);border-radius:12px;padding:16px;margin-bottom:14px;border:1px solid var(--line)}
+h2{font-size:16px;margin-bottom:10px;padding-left:10px;border-left:4px solid var(--accent)}
+h3{font-size:14.5px;margin:12px 0 6px}
+.badge{display:inline-block;border-radius:4px;padding:1px 8px;font-size:12px;font-weight:600;vertical-align:1px;margin-left:6px}
+.bull{background:#fde8e7;color:var(--red)}
+.bear{background:#def7ec;color:var(--green)}
+.neutral{background:#f3f4f6;color:var(--gray)}
+.news-item{padding:10px 0;border-bottom:1px dashed var(--line)}
+.news-item:last-child{border-bottom:none}
+.news-item .t{font-weight:700;font-size:14.5px}
+.news-item .f{font-size:13px;color:#4b5563;margin:4px 0}
+.news-item .a{font-size:13.5px;background:#faf8f2;border-radius:8px;padding:8px 10px;margin-top:6px}
+.news-item .a b{color:var(--accent)}
+.src{font-size:11px;color:#9ca3af}
+table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px;margin:8px 0}
+th,td{padding:6px 6px;text-align:right;border-bottom:1px solid var(--line);word-break:break-word;overflow-wrap:anywhere}
+td:first-child,th:first-child{text-align:left;word-break:break-word}
+th:first-child,td:first-child{text-align:left}
+th{color:var(--gray);font-weight:600;background:#fafafa}
+.up{color:var(--red)}
+.down{color:var(--green)}
+.chart{width:100%;height:300px;margin:6px 0 2px}
+.chart-sm{height:240px}
+.note{font-size:12px;color:var(--gray);background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:8px 10px;margin:8px 0}
+.pick{border:1px solid var(--line);border-radius:10px;padding:12px;margin:10px 0}
+.pick .sec-name{font-weight:700;font-size:15px;color:var(--accent)}
+.stock{background:#fafafa;border-radius:8px;padding:8px 10px;margin-top:8px;font-size:13.5px}
+.stock .n{font-weight:700}
+.stock .risk{color:#92400e;background:#fffbeb;border-radius:6px;padding:4px 8px;margin-top:4px;font-size:12.5px}
+.cal{font-size:13.5px}
+.cal td:first-child{color:var(--accent);font-weight:600;white-space:normal}
+.disclaimer{font-size:12px;color:#6b7280;background:#f3f4f6;border-radius:12px;padding:14px 16px;line-height:1.8}
+.footer{text-align:center;font-size:11px;color:#9ca3af;padding:8px 0 20px}
+@media print{body{background:#fff}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="hero">
+  <div class="kicker">个人金融早报 · AUTOMATED DAILY BRIEFING</div>
+  <h1>暴跌后首日企稳：跌停回落至8家、量能缩至1.32万亿逼近地量（双周确认框架第1天双信号同向），AI硬件第三次回流但内部大轮动——PCB/元件/通信获买入vs半导体设备被卖，盛合晶微+18.94%印证封装叙事；美债大跌至4.84%是利率端的实质缓解——防守维持但开始记录回场证据</h1>
+  <div class="meta">报告生成：2026-11-27 早 | 复盘交易日：2026-11-26 | 所有行情数据均为联网实时抓取并标注来源</div>
+  <div class="tone">整体基调：中性偏谨慎（防守维持+证据记录：地量与跌停收敛首日达成，外围连续性与两融稳定仍需双周验证）</div>
+  
+</div>
+
+<div class="advice"><div class="at">🎯 今日策略建议（复盘 2026-11-26，详见下文解读）</div>昨天（11-26）是暴跌后首日企稳：指数在年内低位横住（上证+0.01%，东方财富）、跌停从49家回落到8家、量能缩到1.32万亿逼近地量——我们双周确认框架的第1天，两个条件同向达成，但这只是开始不是回场理由（11-23单日信号的教训犹在）。结构上最有价值的变化是AI硬件的第三次回流+内部大轮动：PCB+44.1亿、元件+45.3亿、通信+42.2亿获买入，而半导体设备被卖（东方财富收盘口径）——资金沿"国产算力生态+先进封装"的新叙事迁移，盛合晶微+18.94%登龙虎榜是封装叙事的首个确认信号（呼应中信"AI以封装形式到来"）。利率端重大利好：美债收益率大跌至4.84%（东方财富），为12月FOMC后的利率拐点铺路。建议：防守结构维持（工行601398.SH+伊利600887.SH），开始左侧记录——AI硬件的PCB/封装方向（东山精密002384.SZ、盛合晶微688820.SH）加入观察名单，襄阳轴承000678.SZ第四次登榜（穿越整轮调整）值得重视；双周确认过半前不加仓。</div>
+
+<div class="summary">昨日（11-26）A股暴跌后首日企稳：上证指数收3476.88点微涨0.01%、深证成指微跌0.02%、创业板指涨0.29%、科创50续跌1.36%（东方财富，2026-11-26收盘）——指数层面在年内低位横住。广度修复：涨跌1683:3375、涨停70家、跌停回落至8家（乐咕，2026-11-26收盘，对比前日49家）、活跃度32.22%。量能继续萎缩：两市成交13174亿元环比再缩4.8%（东方财富）——距地量区（万亿出头）一步之遥，符合双周确认框架的量能条件方向。资金结构的关键变化是主线内部大轮动：净流入元件+45.3亿、印制电路板+44.1亿、通信+42.2亿、通信设备+37.8亿（AI硬件组装链第三次回流），而半导体设备-13.8亿、数字芯片设计-11.0亿被卖（东方财富，2026-11-26收盘口径）；龙虎榜拓维信息涨停（+10.03%）获3.99亿居首、盛合晶微+18.94%获3.20亿、旋极信息20cm涨停3.34亿、襄阳轴承第四次登榜涨停（+10.02%）2.87亿（东方财富数据中心，2026-11-26）。两融余额21504亿元、单日-214亿元（截至11-25，东方财富）——暴跌日的被动去化。港股反弹：恒指+1.19%（东方财富）。利率端重大变化：美10年期国债收益率大跌0.45%至4.8361%（东方财富，2026-11-26）。</div>
+
+<section>
+<h2>一、昨日要闻与解读</h2>
+<div class="news-item"><div class="t">双周确认框架第1天：跌停8家+量能1.32万亿，两个条件同向达成<span class="badge neutral">中性（证据记录第1天）</span></div><div class="f">11-26跌停8家（对比11-25的49家，乐咕2026-11-25/26收盘对比）、涨停70家；两市成交13174亿元连续第五日萎缩（东方财富，2026-11-26收盘）；指数在年内低位横盘（上证+0.01%，东方财富）。</div><div class="a"><b>传导与判断：</b>双周确认框架（11-26早报设定）的第一天验证：量能条件（连续萎缩至地量）——1.38→1.32万亿的方向正确，但仍需缩至万亿出头的真正地量并停留；广度条件（跌停收敛）——49→8家达成，但单日达标不构成确认（11-23的教训：单日信号不可信），需要连续五日不反弹回升。框架的意义在于用时间过滤鞭打底：第1天双信号同向是好的开始，不是回场的理由。<br><b>尚未充分定价：</b>量能五连缩至1.32万亿的"地量化"进程被市场忽视——参照11月中旬的经验，14577亿元（东方财富2026-11-17）曾被视为地量但随后仍有放量一跌（19321亿元，东方财富2026-11-12），说明真正的地量需要更极端的萎缩（万亿附近）；当前持仓者若以"已经缩量"为由提前回场，仍面临最后一跌的风险，框架的纪律价值正在于此。</div></div><div class="news-item"><div class="t">主线内部大轮动：PCB/元件第三次回流 vs 半导体设备被卖<span class="badge neutral">偏多（AI硬件内部轮动）</span></div><div class="f">11-26行业资金：净流入元件+45.3亿、印制电路板+44.1亿、通信+42.2亿、通信设备+37.8亿、通信网络设备及器件+34.7亿元；净流出半导体设备-13.8亿、数字芯片设计-11.0亿、医药生物-14.8亿（东方财富，2026-11-26收盘口径）；龙虎榜拓维信息（华为算力生态）涨停3.99亿居首、盛合晶微（先进封装）+18.94%获3.20亿、旋极信息（20cm）3.34亿（东方财富数据中心，2026-11-26）。</div><div class="a"><b>传导与判断：</b>AI硬件内部的资金迁移路径：半导体制造/设备（前期的三连回流方向）→硬件组装/PCB/元件/封装——迁移的产业逻辑与卖方叙事一致：中信"AI跃升以封装形式到来"（2026-11-18）+东吴配套件利润分层（2026-11-24）。拓维信息（华为算力）与盛合晶微（先进封装）的龙虎榜首位说明资金在沿"国产算力生态+封装"的新叙事集结——这是主线逻辑的内部升级而非撤退。<br><b>尚未充分定价：</b>盛合晶微+18.94%（东方财富数据中心2026-11-26）是封装叙事的首个龙虎榜级确认——先进封装是"AI硬件的下一站"（卖方共识链：开源玻璃基板系列→中信封装到来），当前只有个股信号没有板块效应，属于"第一只燕子"；若后续封装板块批量获资金，将复制此前"存储→PCB→元件"的轮动行情。</div></div><div class="news-item"><div class="t">美债收益率大跌至4.84%：利率端的实质缓解信号<span class="badge neutral">偏多（利率环境）</span></div><div class="f">美10年期国债收益率11-26大跌0.45%至4.8361%（东方财富，2026-11-26收盘）；COMEX黄金3593.4美元企稳（+0.14%，东方财富）；沪金主连+1.62%（东方财富）；美元指数103.78平稳。</div><div class="a"><b>传导与判断：</b>美债从5.13%峰值（11-17，东方财富）回落至4.84%的路径：油价暴跌（80美元区间）→通胀预期下修 → 加息必要性下降 → 长端利率回落——这条链在11月下旬逐步兑现。利率端的意义：成长股估值的分母压力实质缓解，这解释了为什么AI硬件能在A股暴跌后立即获得第三次回流——聪明资金在为利率拐点（12月FOMC后）提前布局。沪金+1.62%的反弹与美债回落同步，黄金对利率的敏感度在底部区域重新激活。<br><b>尚未充分定价：</b>美债4.84%的位置已低于9月加息前水平——若12月FOMC（12-08/09）"最后一加"落地，美债收益率的下行空间会加速打开；当前A股的年内新低与美债的深度回落形成罕见的基本面背离——利率环境最好的时候恰是A股价格最低的时候，这个错位是中期维度的最大机会。</div></div><div class="news-item"><div class="t">襄阳轴承第四次登榜：穿越整轮调整的"活化石"信号<span class="badge neutral">偏多（配套件韧性）</span></div><div class="f">襄阳轴承11-26涨停（+10.02%）获净买2.87亿元，第四次登龙虎榜（此前10-26、11-12、11-19，东方财富数据中心）——贯穿了反弹、分化、暴跌、企稳的完整周期；青山纸业二连板（+10.05%）2.87亿；拓维信息3.99亿居首（东方财富数据中心，2026-11-26）。</div><div class="a"><b>传导与判断：</b>襄阳轴承的四次登榜时点覆盖了本轮行情的全部阶段（10月底反弹期→11月中旬分化期→11月下旬暴跌前夜→暴跌后企稳日）——每次市场性质剧变，它都获得资金进攻：这不是偶然，是"机器人轴承+配套件"逻辑对各种市场环境的适应性证明（利率免疫+国产替代+低位三重属性）。穿越周期的标的往往在下一轮行情中成为主线旗手。<br><b>尚未充分定价：</b>市场把襄阳轴承当"龙虎榜常客"的投机符号，但其四次登榜的资金性质可能不同（游资→机构过渡期）——东吴配套件利润分层框架（2026-11-24）下，轴承是利润分层最清晰的环节；若第五次登榜伴随更大净买量级，就从"龙虎榜常客"升级为"机构共识"，那个信号值得左侧关注。</div></div><div class="news-item"><div class="t">政策与宏观：2030新一代通信网规划出台，2027年宏观主线展望<span class="badge neutral">中性（政策供血）</span></div><div class="f">工信部等三部门发布：到2030年建成覆盖完善、性能领先的新一代通信网（东吴证券北交所定期报告，2026-11-27）；国信证券发布2027年国内宏观主线报告《雄关漫道真如铁》（国信证券，2026-11-26）；中信证券（香港）覆盖韩国消费行业"收窄与聚焦"（2026-11-26）。</div><div class="a"><b>传导与判断：</b>2030通信网规划是"新基建"的年度级政策供血：5G-A/6G的设备投资周期为AI硬件的通信链（当前获资金回流的方向）提供政策背书——通信+42.2亿的行业流入（东方财富2026-11-26）与新政策的出台同日，政策-资金的共振在发生。国信2027宏观主线的"雄关漫道"定调与东吴"渐进修复"（2026-11-17）形成共识：明年是修复年而非繁荣年——结构选择比仓位选择更重要。<br><b>尚未充分定价：</b>通信网规划的受益链条（设备商-运营商-应用端）中，设备端的国产替代弹性最大且当前估值在低位——政策的时间跨度（2030）意味着这是可以穿越熊市的长逻辑，被市场当作一日游题材对待是错配。</div></div>
+<h3>头部券商观点速览（2026-11-26 前后发布）</h3>
+<div class="bcard"><div class="bh"><span class="org">★ 开源证券</span><span class="dt">11-27 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611271832089033.html" style="color:#0e5a8a;text-decoration:none">开源晨会</a></div><div class="bs">摘要：观点精粹行业公司【商贸零售&amp;社服：周大福(01929.HK)】黄金借贷收益增厚业绩，关注渠道提质、产品升级——港股公司信息更新报告-20261126【医药：博腾股份(300363.SZ)】小分子主业持续修复，利润弹性有望释放——公司深度报告-20261…</div></div><div class="bcard"><div class="bh"><span class="org">★ 东吴证券</span><span class="dt">11-27 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611271832088985.html" style="color:#0e5a8a;text-decoration:none">北交所定期报告：工信部等三部门：到2030年建成覆盖完善、性能领先的新一代通信网</a></div><div class="bs">摘要：资本市场新闻：1）商务部：中国和墨西哥将成立工作组，围绕降低关税问题开展对话。11月26日，新闻发言人何亚东表示，中国和墨西哥高层发展会议第十一次会议于11月23日举行，双方同意成立相关工作组，围绕降低关税问题开展对话。行业新闻：1）工业和信息化部、国家网信办…</div></div><div class="bcard"><div class="bh"><span class="org">★ 中信证券经纪(香港)</span><span class="dt">11-26 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611261832066727.html" style="color:#0e5a8a;text-decoration:none">韩国消费行业：收窄与聚焦</a></div><div class="bs">摘要：中信证券财富管理与中信里昂研究观点一致。根据中信里昂研究在2026年11月24日发布的题为《Narrowandfocus》的报告，2026年韩国消费板块表现与市场明显分化。展望2027年，市场调整、利率上升和住房负担应会加深消费两极分化，利好便利店（CVS）等…</div></div><div class="bcard"><div class="bh"><span class="org">★ 国信证券</span><span class="dt">11-26 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611261832060054.html" style="color:#0e5a8a;text-decoration:none">宏观经济深度报告：雄关漫道真如铁—2027年国内宏观主线</a></div><div class="bs">摘要：核心观点回头看，“不按剧本走”才是2026真正的主线。展望2027，“科技+政治”双周期格局延续，但中美“攻守易位”，关键在于拎清明年的工作重心。核心诉求：求稳＞谋远＞守底2027年经济工作不宜按常规年份来理解。明年是“十五五”规划集中落实的关键之年，也是党的…</div></div><div class="bcard"><div class="bh"><span class="org">★ 中信证券经纪(香港)</span><span class="dt">11-26 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611261832054057.html" style="color:#0e5a8a;text-decoration:none">环球市场动态</a></div></div><div class="bcard"><div class="bh"><span class="org">★ 国信证券</span><span class="dt">11-26 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611261832053286.html" style="color:#0e5a8a;text-decoration:none">晨会纪要</a></div></div><div class="bcard"><div class="bh"><span class="org">★ 国信证券</span><span class="dt">11-26 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611261832049877.html" style="color:#0e5a8a;text-decoration:none">ESG专题研究：从产品到股票到长期资金</a></div></div><div class="bcard"><div class="bh"><span class="org">★ 东吴证券</span><span class="dt">11-26 · 策略</span></div><div class="bt"><a href="https://data.eastmoney.com/report/info/AP202611261832043876.html" style="color:#0e5a8a;text-decoration:none">宏观深度报告：A股2027年盈利预测：宽基指数、申万一级行业与季度节奏</a></div></div><div class="src">★为头部券商，点标题可看原文。来源：东方财富研报中心(reportapi, 免费接口)，窗口 2026-11-25~2026-11-27</div>
+<div class="news-item"><div class="a">卖方最新（东财研报中心，2026-11-26/27）：<br><br>【工信部等三部门】到2030年建成覆盖完善、性能领先的新一代通信网（东吴证券北交所定期报告，2026-11-27）——通信设备投资的长周期政策背书，与通信行业+42.2亿的资金流入（东方财富2026-11-26）同日共振。<br><br>【国信·2027宏观主线】《雄关漫道真如铁》（2026-11-26）——年度主线的定调审慎：修复是渐进的、道路是曲折的——与东吴"条件式渐进修复"（2026-11-17）形成跨机构共识：2027年赚结构钱不赚仓位钱。<br><br>【中信（香港）·韩国消费】"收窄与聚焦"（2026-11-26）——海外消费研究的视角对内需配置的映射：聚焦头部与必需。<br><br>【综合判断】卖方的年度共识（渐进修复+结构为王的判断与我们的双周确认框架互补：框架管短期的回场时机，年度共识管结构的选择（AI硬件内轮动+配套件+内需必需）——两者结合，防守期的功课是为回场准备好名单。</div></div>
+</section>
+
+<section>
+<h2>二、市场行情（2026-11-26）</h2>
+<h3>A股主要指数</h3>
+<table><tr><th>指数</th><th>收盘</th><th>涨跌幅</th><th>成交额(亿)</th><th>量能环比</th><th>近5日</th></tr><tr><td>上证指数</td><td>3476.88</td><td><span class="up">+0.01%</span></td><td>6,133</td><td><span class="down">-6.0%</span></td><td><span class="down">-2.82%</span></td></tr><tr><td>深证成指</td><td>10084.04</td><td><span class="down">-0.02%</span></td><td>7,040</td><td><span class="down">-3.6%</span></td><td><span class="down">-4.72%</span></td></tr><tr><td>创业板指</td><td>2189.82</td><td><span class="up">+0.29%</span></td><td>3,378</td><td><span class="down">-6.0%</span></td><td><span class="down">-4.51%</span></td></tr><tr><td>科创50</td><td>1169.99</td><td><span class="down">-1.36%</span></td><td>734</td><td><span class="down">-10.8%</span></td><td><span class="down">-7.93%</span></td></tr></table><div class="src">两市成交额合计约 <b>13,174 亿元</b>（口径: 上证指数+深证综指成交额之和），环比 <span class="down">-4.8%</span>。（来源：东方财富-指数日线，2026-11-26）</div>
+<h3>港股 / 隔夜美股（10-21 美股收盘）</h3>
+<table><tr><th>指数</th><th>收盘</th><th>涨跌幅</th></tr><tr><td>恒生指数</td><td>22226.88</td><td><span class="up">+1.19%</span></td></tr><tr><td>恒生科技指数</td><td>3417.38</td><td><span class="up">+1.16%</span></td></tr><tr><td>道琼斯 *</td><td>50182.95</td><td><span class="up">+0.33%</span></td></tr><tr><td>标普500 *</td><td>7182.78</td><td><span class="down">-0.25%</span></td></tr><tr><td>纳斯达克 *</td><td>23585.80</td><td><span class="down">-0.62%</span></td></tr></table><div class="src">* 美股为隔夜(北京时间今晨收盘)行情。来源：东方财富指数日线，数据日期见各行情注。</div>
+<h3>全球市场（2026-11-26 收盘）</h3>
+<table><tr><th>品种</th><th>收盘</th><th>涨跌</th></tr><tr><td>沪深300</td><td>3,900.55</td><td><span class="up">+0.06%</span></td></tr><tr><td>上证50</td><td>2,753.71</td><td><span class="up">+0.07%</span></td></tr><tr><td>中证500</td><td>5,863.34</td><td><span class="down">-0.46%</span></td></tr><tr><td>美元指数</td><td>103.78</td><td><span class="up">+0.08%</span></td></tr><tr><td>美元兑离岸人民币</td><td>6.66</td><td><span class="down">-0.09%</span></td></tr><tr><td>美10年期国债收益率</td><td>4.84%</td><td><span class="down">-0.45%</span></td></tr><tr><td>NYMEX原油</td><td>84.91 美元</td><td><span class="up">+0.90%</span></td></tr><tr><td>COMEX黄金</td><td>3,593.40 美元</td><td><span class="up">+0.14%</span></td></tr><tr><td>沪金主连</td><td>767.62 元/克</td><td><span class="up">+1.62%</span></td></tr><tr><td>螺纹钢主连</td><td>3,070.00 元/吨</td><td><span class="up">+0.26%</span></td></tr></table><div class="src">沪深300/上证50/中证500为股指期货标的现货口径；美债为10年期收益率。来源：东方财富，数据日期 2026-11-26</div>
+<div class="news-item"><div class="a">外围关键词：利率端的实质拐点信号。美10年期国债收益率4.8361%（-0.45%，东方财富2026-11-26收盘）——从5.13%峰值的累计回落已近30bp，利率压力的缓解从"边际"升级为"实质"；黄金3593.4美元企稳+0.14%、沪金主连+1.62%（东方财富）——黄金对利率回落的敏感度在底部重新激活；油价84.91美元（+0.90%，东方财富）低位企稳。美股数据今晨疑似缓存未刷新（与前日数值完全一致，如实标注），按最新可得口径维持"平稳"判断。港股反弹（恒指+1.19%，东方财富）——先跌深的市场先企稳的规律在兑现。12-08/09的FOMC是利率拐点的正式确认时点：若"最后一加"温和落地，美债的下行空间与A股的年内新低将构成中期最大错位机会。</div></div>
+<div class="news-item"><div class="a">衍生品信号：企稳日的结构分化。上证50微涨0.07%对中证500的-0.46%（东方财富，2026-11-26收盘）——权重与成长的分化幅度温和（对比暴跌日的-0.82%对-3.63%），防御与进攻在低位形成弱平衡；沪深300微涨0.06%（东方财富）。沪金主连+1.62%至767.62元（东方财富）——内盘黄金的反弹领先外盘（外盘+0.14%），利率回落预期下黄金股的修复弹性开始显现；螺纹钢+0.26%（东方财富）平稳。组合解读："跌停8家+量能地量化+主线内轮动"构成企稳日的衍生品画像——恐慌的机械性消退（跌停回落）与主动性买盘的结构性回流（PCB/封装）并存；中证500的相对弱势说明小微盘的抛压仍在消化，它的止跌是广度确认的最后一环。</div></div>
+<div id="chartPct" class="chart chart-sm"></div>
+<h3>上证指数走势与量能（近40交易日）</h3>
+<div id="chartSH" class="chart"></div>
+
+</section>
+
+<section>
+<h2>三、资金与情绪</h2>
+<div class="news-item"><div class="a">资金面"地量化+主线内轮动"的组合。总量：两市13174亿元连续第五日萎缩（东方财富，2026-11-26收盘）——量能条件的地量化进程过半（参照框架：需缩至万亿出头并停留）；两融余额21504亿元、暴跌日被动去化214亿（截至11-25，东方财富）——需观察暴跌后两融是否再度企稳（此前11-24曾+6亿首次企稳）；北向1021亿元维持千亿（东方财富2026-11-26）。结构：AI硬件第三次回流的内部轮动是核心信号——元件+45.3/PCB+44.1/通信+42.2亿流入对半导体设备-13.8/数字芯片-11.0亿流出（东方财富2026-11-26收盘口径），资金在硬件链内部从"制造端"切向"组装与封装端"；龙虎榜拓维信息（华为算力）3.99亿居首与盛合晶微（封装）3.20亿的买入方向，与行业资金完全同构。判断：地量+跌停收敛+主线内轮动的组合，是市场在用结构信号对冲总量弱势——左侧的证据在积累，右侧的确认（双周框架）未过半。</div></div>
+<table><tr><td>两融余额（2026-11-25）</td><td><b>21,504</b> 亿元</td><td>日变化 -214 亿元</td></tr><tr><td colspan="3" class="src">融资余额 21,214 亿元，日变化 -208.0 亿元。来源：东方财富数据中心-两融市场汇总(RPTA_RZRQ_LSHJ)</td></tr><tr><td>北向成交额（2026-11-26）</td><td><b>1,021</b> 亿元</td><td class="src">净买入已停止披露</td></tr><tr><td colspan="3" class="src">北向净买入额自2024-08-19起停止披露, 以下为盘后成交总额口径。来源：东方财富数据中心-沪深港通成交历史(RPT_MUTUAL_DEAL_HISTORY)</td></tr><tr><td>涨跌家数</td><td><span class="up">涨 1683</span> / <span class="down">跌 3375</span></td><td>涨停 70 · 跌停 8</td></tr><tr><td colspan="3" class="src">统计口径时间：2026-11-26 15:00:00（活跃度 32.22%）。来源：乐咕乐股-市场涨跌家数(akshare stock_market_activity_legu)</td></tr></table><h3>行业主力资金流向（亿元）</h3><table><tr><th>净流入前列</th><th>涨跌</th><th>主力净额</th></tr><tr><td>元件</td><td><span class="up">+3.66%</span></td><td class="up">+45.3</td></tr><tr><td>印制电路板</td><td><span class="up">+4.75%</span></td><td class="up">+44.1</td></tr><tr><td>通信</td><td><span class="up">+0.85%</span></td><td class="up">+42.2</td></tr><tr><td>通信设备</td><td><span class="up">+0.81%</span></td><td class="up">+37.8</td></tr><tr><td>通信网络设备及器件</td><td><span class="up">+1.43%</span></td><td class="up">+34.7</td></tr></table><table><tr><th>净流出前列</th><th>涨跌</th><th>主力净额</th></tr><tr><td>证券Ⅱ</td><td><span class="down">-1.27%</span></td><td class="down">-9.4</td></tr><tr><td>传媒</td><td><span class="down">-0.87%</span></td><td class="down">-10.1</td></tr><tr><td>数字芯片设计</td><td><span class="down">-1.43%</span></td><td class="down">-11.0</td></tr><tr><td>半导体设备</td><td><span class="down">-1.24%</span></td><td class="down">-13.8</td></tr><tr><td>医药生物</td><td><span class="down">-1.77%</span></td><td class="down">-14.8</td></tr></table><div class="src">口径：当日口径; 早报于次日盘前生成时反映的是报告交易日全天；生成时刻 2026-11-27 08:30。来源：东方财富-行业板块主力资金流(push2 clist)</div>
+<h3>两融余额（近8个披露日）</h3>
+<div id="chartMargin" class="chart chart-sm"></div>
+<h3>龙虎榜净买入TOP5（2026-11-26）</h3>
+<table><tr><th>股票</th><th>涨跌幅</th><th>净买入(亿)</th><th>上榜原因</th></tr><tr><td>拓维信息</td><td><span class="up">+10.03%</span></td><td class="up">+3.99</td><td style="white-space:normal;text-align:left">日涨幅偏离值达到7%的前5只证券</td></tr><tr><td>旋极信息</td><td><span class="up">+20.00%</span></td><td class="up">+3.34</td><td style="white-space:normal;text-align:left">日涨幅达到15%的前5只证券</td></tr><tr><td>盛合晶微</td><td><span class="up">+18.94%</span></td><td class="up">+3.20</td><td style="white-space:normal;text-align:left">有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券</td></tr><tr><td>青山纸业</td><td><span class="up">+10.05%</span></td><td class="up">+3.04</td><td style="white-space:normal;text-align:left">有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券；有价格涨跌幅限制</td></tr><tr><td>襄阳轴承</td><td><span class="up">+10.02%</span></td><td class="up">+2.87</td><td style="white-space:normal;text-align:left">日涨幅偏离值达到7%的前5只证券；日振幅值达到15%的前5只证券；连续三个交</td></tr></table><div class="src">全市场共 70 股上榜。来源：东方财富数据中心-龙虎榜(RPT_DAILYBILLBOARD_DETAILS)，2026-11-26</div>
+<div class="news-item"><div class="a">龙虎榜（东方财富数据中心，2026-11-26）：70股上榜。净买前列：拓维信息（+10.03%，3.99亿）、旋极信息（+20.00%，3.34亿）、盛合晶微（+18.94%，3.20亿）、青山纸业（+10.05%，3.04亿）二连板、襄阳轴承（+10.02%，2.87亿）第四次登榜。三个重点：①拓维信息（华为算力生态+教育信息化）登顶——"国产算力生态"取代"半导体制造"成为龙虎榜的新主题词，与行业资金（通信+42.2亿，东方财富）同构；②盛合晶微（先进封装）+18.94%——中信"AI以封装形式到来"（2026-11-18）叙事的首个龙虎榜级个股确认，封装板块若形成批量效应将复制存储→PCB的轮动行情；③襄阳轴承第四次登榜且净买量级递增（1.93亿→2.87亿，东方财富数据中心2026-11-12/26对比）——穿越整轮调整的"活化石"，从龙虎榜常客向机构共识演进的迹象。</div></div>
+<h3>行业主力资金流向（亿元）</h3>
+<div id="chartFlow" class="chart"></div>
+</section>
+
+<section>
+<h2>四、板块与个股关注</h2>
+<div class="pick"><div class="sec-name">▍AI硬件·PCB与先进封装（主线内轮动的新集结方向）</div><div class="f">行业资金第三次回流且内部迁移：元件+45.3亿、PCB+44.1亿、通信设备+37.8亿（东方财富，2026-11-26收盘口径）；盛合晶微+18.94%登龙虎榜（东方财富数据中心）是"封装叙事"的首个个股确认——中信"AI以封装形式到来"（2026-11-18）的产业判断开始被资金定价；工信部2030通信网规划（东吴证券2026-11-27）提供政策长逻辑。</div><div class="a"><b>催化：</b>封装板块的批量资金效应（复制存储→PCB轮动）；12月FOMC后利率拐点；双周确认框架过半后的回场资金。</div><div class="stock"><span class="n">东山精密（002384.SZ）</span> — PCB+精密制造龙头，PCB行业+44.1亿的回流方向（东方财富2026-11-26）直接受益；经历跌停-V型-暴跌的完整洗礼后，筹码结构充分换手，年内低位+主线内轮动的双重弹性候选。<div class="risk">⚠ 主要风险：双周确认未过半，左侧介入仅限观察仓性质的小仓位；外围反复的传导风险。</div></div><div class="stock"><span class="n">盛合晶微（688820.SH）</span> — 先进封装龙头（2.5D/3D封装的中坚力量），+18.94%登龙虎榜获3.20亿净买（东方财富数据中心，2026-11-26）——封装叙事的旗手，"AI以封装形式到来"（中信2026-11-18）最正宗的载体。<div class="risk">⚠ 主要风险：科创板高波动+涨停次日的兑现压力；封装叙事若无法形成板块效应则个股独舞难持续；小仓位+严格止损。</div></div></div><div class="pick"><div class="sec-name">▍制造红利·配套件（穿越周期的活化石方向）</div><div class="f">襄阳轴承第四次登龙虎榜且净买量级递增（东方财富数据中心，2026-10/11月四期）——穿越反弹、分化、暴跌、企稳全周期的资金韧性验证；东吴配套件利润分层框架（2026-11-24）+青山纸业二连板（东方财富数据中心2026-11-26）说明"高股息+制造"的扩散在暴跌后仍在延续。</div><div class="a"><b>催化：</b>设备更新与"十五五"政策；红利资金的持续扩散需求；第五次登榜的量级观察（机构化信号）。</div><div class="stock"><span class="n">襄阳轴承（000678.SZ）</span> — 机器人轴承国产核心，四次登榜贯穿整轮调整的"活化石"（东方财富数据中心）——利率免疫+国产替代+低位三重属性经受住全部市场环境检验，双周确认后的回场名单第一顺位。<div class="risk">⚠ 主要风险：涨停次日的兑现压力；机器人收入占比小、主业薄利的基本面约束；回踩介入纪律。</div></div></div><div class="pick"><div class="sec-name">▍观察仓：防守核心+半导体设备（框架的两端）</div><div class="f">①防守核心（工商银行601398+伊利股份600887）在双周确认过半前继续作为主仓位——地量期的红利与必选是时间成本最低的持仓；②半导体设备（北方华创方向）昨日被卖13.8亿（东方财富2026-11-26）——主线内轮动的暂时的卖方，其订单逻辑（国产替代+晶圆涨价）未变，等轮动回摆时的低吸机会。</div><div class="a"><b>催化：</b>防守仓：稳市资金护盘与年末估值切换；设备仓：主线内轮动的回摆信号（设备资金流由负转正）。</div></div><div class="src">以上为研究性关注而非买入建议，须结合自身仓位与风险承受能力；弱势缩量市场中题材轮动快，建议右侧确认后再介入。</div>
+</section>
+
+<section>
+<h2>五、今日与本周关注</h2>
+<table class="cal"><tr><td>今日/下周</td><td class="cal">双周确认框架的进度跟踪：量能能否缩至万亿出头的地量并停留、跌停能否连续五日个位数、两融在暴跌后能否再企稳——三项是回场的前提</td></tr><tr><td>11-30（下周一）</td><td class="cal">融资保证金80%正式施行：若与地量期重叠，政策弹药的效力将被市场底放大——施行首周两融数据是关键</td></tr><tr><td>12-08/09</td><td class="cal">美联储12月FOMC：美债4.84%已为利率拐点铺路——"最后一加"温和落地则外围连续性条件（五日不创新低）有望达成</td></tr><tr><td>持续</td><td class="cal">封装叙事的板块效应观察（盛合晶微→批量涨停=轮动行情确认）；襄阳轴承第五次登榜的量级（机构化信号）；2030通信网规划的设备端受益梳理</td></tr></table>
+</section>
+
+<div class="disclaimer">
+<b>免责声明：</b>本报告由个人自动化系统基于公开信息生成，仅供参考，不构成任何投资建议或买卖要约。所涉个股仅为研究示例，不代表推荐买入。股市有风险，投资需谨慎，据此操作风险自负。行情与资金数据均来自文中标注的公开来源（东方财富、新浪财经、乐咕乐股及公开新闻报道），以官方披露为准；北向资金净买入额自2024-08-19起交易所已停止逐日披露，本报告仅使用盘后成交总额口径。
+</div>
+<div class="footer">由 ZCode 金融早报自动化服务生成 · 数据抓取时间 2026-11-27 08:30:38 · 全链路 0 元/月</div>
+
+</div>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.5.1/echarts.min.js"></script>
+<script>
+function loadEchartsFallback(){
+  var s=document.createElement('script');
+  s.src='https://registry.npmmirror.com/echarts/5.5.1/files/dist/echarts.min.js';
+  s.onload=renderCharts;document.head.appendChild(s);
+}
+function initCharts(){ if(window.echarts){renderCharts();} else {loadEchartsFallback();} }
+function renderCharts(){
+  var D={"sh":{"dates":["2026-09-24","2026-09-28","2026-09-29","2026-09-30","2026-10-08","2026-10-09","2026-10-12","2026-10-13","2026-10-14","2026-10-15","2026-10-16","2026-10-19","2026-10-20","2026-10-21","2026-10-22","2026-10-23","2026-10-26","2026-10-27","2026-10-28","2026-10-29","2026-10-30","2026-11-02","2026-11-03","2026-11-04","2026-11-05","2026-11-06","2026-11-09","2026-11-10","2026-11-11","2026-11-12","2026-11-13","2026-11-16","2026-11-17","2026-11-18","2026-11-19","2026-11-20","2026-11-23","2026-11-24","2026-11-25","2026-11-26"],"closes":[3888.37,3823.62,3830.45,3842.19,3811.9,3813.79,3797.24,3800.86,3767.23,3707.48,3716.28,3730.92,3735.37,3713.03,3658.03,3690.48,3697.52,3648.3,3681.47,3651.43,3599.02,3638.03,3608.1,3686.17,3689.91,3649.18,3660.79,3663.72,3680.64,3655.83,3634.35,3602.57,3584.58,3587.83,3577.62,3533.79,3538.95,3548.37,3476.47,3476.88],"amounts":[7836.0,8045.0,6617.0,6794.0,8112.0,8886.0,7149.0,7793.0,6625.0,7744.0,7325.0,6870.0,7000.0,6428.0,7061.0,8987.0,7465.0,6724.0,7510.0,7156.0,7642.0,8475.0,8108.0,9533.0,9797.0,7726.0,6825.0,6740.0,7362.0,8795.0,7706.0,7062.0,6905.0,6502.0,6369.0,7026.0,7385.0,7719.0,6527.0,6133.0]},"pct":{"names":["科创50","上证指数","深证成指","创业板指","恒生指数","恒生科技指数","道琼斯","标普500","纳斯达克"],"vals":[-1.36,0.01,-0.02,0.29,1.19,1.16,0.33,-0.25,-0.62]},"margin":{"dates":["2026-11-16","2026-11-17","2026-11-18","2026-11-19","2026-11-20","2026-11-23","2026-11-24","2026-11-25"],"vals":[22357.0,22171.0,22083.0,21927.0,21509.0,21419.0,21422.0,21214.0]},"flow":{"names":["元件","印制电路板","通信","通信设备","通信网络设备及器件","医药生物","半导体设备","数字芯片设计","传媒","证券Ⅱ"],"vals":[45.3,44.1,42.2,37.8,34.7,-14.8,-13.8,-11.0,-10.1,-9.4]}};
+  var base={tooltip:{trigger:'axis'},grid:{left:56,right:56,top:30,bottom:44}};
+  // 1. 各指数单日涨跌幅
+  var c1=echarts.init(document.getElementById('chartPct'));
+  c1.setOption(Object.assign({},base,{
+    grid:{left:96,right:40,top:16,bottom:30},
+    tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+    xAxis:{type:'value',axisLabel:{formatter:'{value}%'}},
+    yAxis:{type:'category',data:D.pct.names,axisLabel:{fontSize:11}},
+    series:[{type:'bar',data:D.pct.vals.map(function(v){return {value:v,itemStyle:{color:v>=0?'#d6342c':'#0e9f6e'}};}),
+      label:{show:true,position:'right',formatter:'{c}%'}}]
+  }));
+  // 2. 上证收盘价 + 成交额
+  var c2=echarts.init(document.getElementById('chartSH'));
+  var shStep=Math.max(1,Math.ceil(D.sh.dates.length/6));
+  c2.setOption(Object.assign({},base,{
+    legend:{data:['收盘价','成交额(亿元)'],top:0,itemWidth:14,textStyle:{fontSize:10}},
+    tooltip:{trigger:'axis'},
+    grid:{left:50,right:52,top:28,bottom:26},
+    xAxis:{type:'category',data:D.sh.dates,axisLabel:{rotate:40,fontSize:9,interval:shStep-1}},
+    yAxis:[{type:'value',scale:true,name:'点',nameTextStyle:{fontSize:9}},{type:'value',name:'亿元',splitLine:{show:false},nameTextStyle:{fontSize:9}}],
+    dataZoom:[{type:'inside'}],
+    series:[{name:'收盘价',type:'line',data:D.sh.closes,smooth:true,showSymbol:false,lineStyle:{width:2},itemStyle:{color:'#b3261e'}},
+            {name:'成交额(亿元)',type:'bar',yAxisIndex:1,data:D.sh.amounts,itemStyle:{color:'#f3c88b',opacity:.8}}]
+  }));
+  // 3. 两融余额
+  var c3=echarts.init(document.getElementById('chartMargin'));
+  var mgStep=Math.max(1,Math.ceil(D.margin.dates.length/5));
+  c3.setOption(Object.assign({},base,{
+    grid:{left:56,right:20,top:20,bottom:44},
+    xAxis:{type:'category',data:D.margin.dates,axisLabel:{rotate:40,fontSize:9,interval:mgStep-1}},
+    yAxis:{type:'value',scale:true,name:'亿元',nameTextStyle:{fontSize:9}},
+    series:[{type:'line',data:D.margin.vals,smooth:true,showSymbol:false,areaStyle:{opacity:.15},itemStyle:{color:'#7c3aed'}}]
+  }));
+  // 4. 行业主力资金流(净流入/净流出)
+  var c4=echarts.init(document.getElementById('chartFlow'));
+  c4.setOption(Object.assign({},base,{
+    grid:{left:110,right:56,top:16,bottom:30},
+    tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+    xAxis:{type:'value',axisLabel:{formatter:'{value}亿'}},
+    yAxis:{type:'category',data:D.flow.names,axisLabel:{fontSize:11}},
+    series:[{type:'bar',data:D.flow.vals.map(function(v){return {value:v,itemStyle:{color:v>=0?'#d6342c':'#0e9f6e'}};}),
+      label:{show:true,position:'insideRight',formatter:'{c}亿'}}]
+  }));
+  window.addEventListener('resize',function(){c1.resize();c2.resize();c3.resize();c4.resize();});
+}
+if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',initCharts);}else{initCharts();}
+</script>
+</body>
+</html>
